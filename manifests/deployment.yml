@@ -44,7 +44,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-vote-front
-        image: harbor-01a.corp.tanzu/library/azure-vote-front-argo
+        image: harbor-01a.corp.tanzu/library/azure-vote-front-argo:v2
         ports:
         - containerPort: 80
         resources:
