@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: azure-vote-back
-        image: redis
+        image: harbor-01a.corp.tanzu/library/redis:latest
         ports:
         - containerPort: 6379
           name: redis
